@@ -1,0 +1,219 @@
+/*****************Styles for the body********************/
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:lightgrey;
+    font-family: "Times New Roman", Times, serif; 
+}
+/****************Styles for header**********************/
+header{
+    background-image:url(images/afterthefall.jpeg);
+    /******Photo Credit by Rob Alexender ****/
+    background-size:100% 100%;
+    color: white;
+    font-family: "Times New Roman", Times, serif; 
+    font-weight:bold;
+    font-size:2.5em;
+}
+/******************Styles for Heading*********************/
+h1 {
+    font-family:"Arvo",Georgia, 'Times New Roman', serif;
+    font-size: 55px;
+    text-align: center;
+    color: black;
+}
+h2 {
+    font-family:"Arvo",Georgia, 'Times New Roman', serif;;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+}
+h3 {
+    font-family:"Arvo",Georgia, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: left;
+    color: black;
+}
+h4{
+    font-family:"Arvo",Georgia, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 30px;
+    text-align: left;
+    color: white;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:14px;
+    text-align:left;
+}
+
+/******************Styles for nav ******************/
+nav{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    float: left;
+    width:160px;
+}
+nav a {
+    text-decoration: none;
+}
+nav ul{
+    list-style-type: none;
+    padding-left: 0;
+    font-size:1.2em;
+}
+
+nav a:link{
+    color:black;
+}
+nav a:visited{
+    color:Purple;
+}
+nav a:hover{
+    color:#3131A2;
+    background-color:#EAEAEA;
+}
+
+#center{
+    float: left;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/***********style for main**************/
+main {
+    padding:20px;
+    display:bloack;
+    margin-left: 175px;
+    background-color:White;
+}
+main div{
+   
+    font-size: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+p{
+    font-family: serif,Georgia, 'Times New Roman',;
+    font-size: 20;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/****************Styles for footer **************************/
+footer {
+    background-color:rgba(118, 128, 150, 0.89);
+    color:#000000;
+    font-size: 0.60em;
+    font-style: italic;
+    text-align: center;
+    padding: 10px; 
+}
+footer a:link{
+    color:#2E0000;
+}
+footer a:visited{
+    color:#000000;
+}
+footer a:hover{
+    color: #F5F5DC;
+}
+
+
+/************** id styles ****************************/
+#wrapper{
+width: 80%;
+margin-left:auto;
+margin-right:auto;
+background-color:rgba(241, 236, 236, 0.81);
+min-width: 960px;
+max-width: width 2048px;
+
+}
+/****************styles for form*****************/
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    width:120px;
+    padding-right:10px;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"] { 
+    margin-left: 130px; 
+}
+/*Id start with a #*/
+/******** id Styles for Hero ********/
+#hero{
+    height: 650px;
+    color: rgb(26, 28, 28);
+    margin-right: 10em;
+    margin-left: 10em;
+}
+/******** Style for figure **********/
+figure{
+    float: left;
+    padding-left: 10px;
+    height:200px;
+    width:210px;
+}
+figcaption{
+    text-align: left;
+    font-style:italic;
+    font-family: Georgia, serif;
+}
+section{
+    display:block;
+    border:1px solid powerblue;
+}
+/************ Tablet size****************************************/
+@media only screen and (max-width: 100em){
+    body{
+        background-color:lightgrey;
+        background-image:none;
+        margin: 0;
+    }
+    #wrapper{
+        width:auto;
+        min-width:0;
+    }
+    h1{
+        margin:0;
+    }
+    main{
+        margin:0;
+        overflow:scroll;
+    }
+    nav{
+        float: none;
+        width:auto;
+        padding: 0;
+    }
+    nav ul{
+        text-align:center;
+    }
+    nav li{
+        display: inline;
+        padding:0 0.75em 0 0.75em;
+    }
+    #mobile{
+        display: none;
+    }
+
+}
+
+   
+
+
+
+
